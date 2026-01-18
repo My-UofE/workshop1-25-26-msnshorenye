@@ -49,7 +49,8 @@ def play_game_2(min_x=0, max_x=20):
             print("Thanks for playing...")
             print("Bye!")
             game_ended = True
-            
-                 
+          
+
+
 if __name__ == "__main__":
     play_game_2()
