@@ -1,7 +1,19 @@
 import random
-
+import math
 # function to be used by game_1: Guess the Number
 def pick_value(poss_values):
+    # values_num = len(poss_values)
+    # if values_num > 1:
+    #     if values_num % 2 == 0:
+    #         value = poss_values[values_num/2]
+        
+    #     else:
+    #         pre_val = math.ceil(values_num/2)
+    #         print(pre_val)
+    #         value = poss_values[pre_val]
+        
+    # return(value)
+
     x = random.choice(poss_values)   
     return x
 
