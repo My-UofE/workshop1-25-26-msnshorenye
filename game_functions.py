@@ -14,7 +14,7 @@ def check_higher_lower(current_val, next_val, user_input):
         else:
             return False
     
-    if user_input == "1":
+    if user_input == "l":
         if current_val > next_val:
             return True
         else:
